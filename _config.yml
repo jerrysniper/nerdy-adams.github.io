@@ -17,5 +17,5 @@ gems :
         - jekyll-paginate
 
 sass :
-        sass_dir : ./_sass
-        compressed : true
+        sass_dir : _sass
+        style : compressed
