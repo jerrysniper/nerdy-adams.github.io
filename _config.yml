@@ -1,0 +1,21 @@
+# Site settings
+title : Nerdrun
+email : nerdrun.kai@gmail.com
+author : Nerdy-Kai RPM
+description : "Multi mad-core nomad life"
+baseurl : ""
+url : "https://nerdrun.github.io"
+date_format : "%b %-d, %Y"
+
+# Build settings
+markdown : kramdown 
+paginate : 5
+paginate_path : "/blog/page:num/"
+
+# Plugins
+gems : 
+        - jekyll-paginate
+
+sass :
+        sass_dir : ./_sass
+        compressed : true
